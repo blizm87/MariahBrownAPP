@@ -1,0 +1,32 @@
+#test1Container {
+  width: 60%;
+  display: block;
+  border: 1px solid black;
+}
+
+    #test1 {
+      display: block;
+      width: 100%;
+    }
+
+#test2Container {
+  width: 100%;
+  display: block;
+  border: 1px solid black;
+}
+
+    #test2 {
+      display: block;
+      width: 100%;
+    }
+
+#test3Container {
+  width: 20%;
+  display: block;
+  border: 1px solid black;
+}
+
+    #test3 {
+      display: block;
+      width: 100%;
+    }
