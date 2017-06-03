@@ -2,7 +2,7 @@
   "name": "MoriahBrownAPP",
   "version": "1.0.0",
   "description": "Moriah Brown Website",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
