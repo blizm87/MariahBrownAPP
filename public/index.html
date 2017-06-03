@@ -4,12 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MoriahBrownHouse</title>
   <link rel='stylesheet' href='css/style.css'>
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
 </head>
-<body>
+<body ng-controller='mainCtrl'>
 
   <div id='mainContainer'>
-    <div id='mainContent'>
-      Testing
+    <div id='mainContent' ng-view>
+
     </div>
   </div>
 
