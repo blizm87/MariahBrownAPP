@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   background-image: url('../assets/images/africanWallpaper.jpeg');
 }
@@ -9,15 +13,10 @@ body {
       background-color: black;
       position: fixed;
     }
-/*
-    #hiddenNav {
-      width: 100%;
-      padding: 1em;
-      visibility: hidden;
-    }*/
 
     #mainContainer {
       width: 70%;
+      height: 100%;
       background-color: rgb(152, 175, 199);
       padding-top: 1em;
       padding-bottom: 3em;
