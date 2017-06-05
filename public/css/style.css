@@ -1,7 +1,3 @@
-html, body {
-  height: 100%;
-}
-
 body {
   background-image: url('../assets/images/africanWallpaper.jpeg');
 }
@@ -16,8 +12,7 @@ body {
 
     #mainContainer {
       width: 70%;
-      height: 100%;
-      background-color: rgb(152, 175, 199);
+      background-color: rgba(152, 175, 199, 1);
       padding-top: 1em;
       padding-bottom: 3em;
     }
@@ -50,7 +45,7 @@ body {
             }
 
                 #mBrownHouseContainer {
-                  width: 30%;
+                  width: 40%;
                   display: block;
                   border: 1px solid black;
                 }
@@ -60,10 +55,17 @@ body {
                       display: block;
                     }
 
+                    #mBrownHouseContainer>p {
+                      padding-top: 1em;
+                      text-align: center;
+                      font-size: 12px;
+                    }
+
     footer {
       width: 100%;
       padding: 2em;
       background-color: black;
+      bottom: 0;
     }
 
         #myCopyRight {

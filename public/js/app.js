@@ -17,12 +17,12 @@
 
     function mainCtrl($scope, $http, $timeout, $window){
       console.log('Main Controller working')
-
       let $mainCont = $('#mainContainer')
       let $body = $('body')
+      let $footer = $('footer')
       let $navbar = $('#navbar')
       let navbarHeight = $navbar.outerHeight();
-
+      console.log($body[0].offsetHeight)
       //  POSITIONS MAINCONTAINER DIRECTLY BENEATH NAVBAR
       $mainCont.css({
         'margin-top': navbarHeight + 'px'
