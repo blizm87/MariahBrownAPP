@@ -2,21 +2,41 @@ body {
   background-image: url('../assets/images/africanWallpaper.jpeg');
 }
 
+    #navbar {
+      width: 100%;
+      padding: 1em;
+      background-color: black;
+      position: fixed;
+    }
+
+    #hiddenNav {
+      width: 100%;
+      padding: 1em;
+      visibility: hidden;
+    }
+
     #mainContainer {
       width: 70%;
-      min-height: 100%;
       background-color: rgb(152, 175, 199);
+      padding-top: 1em;
       padding-bottom: 3em;
     }
 
-        #test2Container {
+        @media screen and (max-width: 768px) {
+
+          #mainContainer {
+            width: 100%;
+          }
+
+        }
+
+        #headerContainer {
           width: 100%;
           display: block;
-          border: 1px solid black;
           background-color: white;
         }
 
-            #test2 {
+            #headerLogo {
               display: block;
               width: 100%;
             }

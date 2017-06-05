@@ -17,6 +17,13 @@
 
     function mainCtrl($scope, $http, $timeout, $window){
       console.log('Main Controller working')
+      let $mainCont = $('#mainContainer')
+      let $navbar = $('#navbar')
+      let navbarHeight = $navbar.outerHeight();
+      console.log(navbarHeight)
+      // $mainCont.css({
+      //   'margin-top': navbarHeight + 'px'
+      // })
 
     } //  END MAINCTRL -  CONTROLLER
 

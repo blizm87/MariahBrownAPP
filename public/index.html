@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="mBrownApp">
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MariahBrownHouse</title>
   <!-- Latest compiled and minified CSS -->
@@ -16,16 +17,39 @@
 </head>
 <body ng-controller='mainCtrl'>
 
+  <nav id='navbar'>
+    <ul class='nav nav-pills'>
+      <li><a href="#" title="">HOME</a></li>
+      <li><a href="#" title="">NEWS</a></li>
+      <li><a href="#" title="">HISTORY</a></li>
+      <li><a href="#" title="">ABOUT</a></li>
+      <li><a href="#" title="">MEMBERSHIP</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- HIDDEN NAV TO FIX MAINCONTENT POSITIONING -->
+  <div id='hiddenNav'>
+    <ul class='nav nav-pills'>
+      <li><a href="#" title="">HOME</a></li>
+      <li><a href="#" title="">NEWS</a></li>
+      <li><a href="#" title="">HISTORY</a></li>
+      <li><a href="#" title="">ABOUT</a></li>
+      <li><a href="#" title="">MEMBERSHIP</a></li>
+    </ul>
+  </div>
+
   <div id='mainContainer' class='container'>
 
-    <div class='jumbotron' id='test2Container'>
-      <img src='./assets/images/headerLogo.png' id='test2'>
-    </div>
+    <header id='headerContainer' class='jumbotron'>
+      <img src='./assets/images/headerLogo.png' id='headerLogo'>
+    </header>
 
     <div id='mainContent' ng-view>
       <!-- PARTIALS INSERT HERE -->
     </div>
   </div>
+
   <footer>
     <div id='myCopyRight'>Web Developer - &copy; 2017 Justin Samuels </div>
     <div id='mBrownCopyRight'>&copy; Friends and Family of the Mariah Brown House. All Rights reserved.</div>
